@@ -1,0 +1,363 @@
+
+--------------------------------------------------
+
+CSE HTML Validator Standard v16.04 (Registered)
+Checking "E:\webserver\metal_oath_band\public_html\css\css_metaloath.css" (1533 characters).
+File date is Thursday, September 22, 2016 at 12:16:40 PM.
+File checked on Thursday, September 22, 2016 at 12:16:46 PM.
+
+     Number of lines checked: -1 in 0.00 seconds
+ Number of lines in document: 94 (-1.1% of lines checked)
+     Number of lines ignored: 0
+Number of validator comments: 5
+          Number of messages: 16
+            Number of errors: 1 (first in line 60)
+          Number of warnings: 4 (first in line 21)
+
+--------------------------------------------------
+
+   1: body{
+   2:  background: #FFFFFF;
+   3: }
+   4: 
+   5: header{
+
+   6:  background-color: #2A2C2B;
+-------||||||||||||||||
+
+[CSE] Message number 1 in line 6:2:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+   7:  height: 80px;
+   8: }
+
+   9: #logo{
+------|||||
+
+[CSE] Message number 2 in line 9:1:
+It's recommended that "*#logo" be used instead of "#logo" so
+that the universal selector (*) is explicit instead of
+implied. Using explicit universal selectors can decrease
+confusion and improve readability. This message is displayed
+up to 3 times.
+
+  10:  background-color: #AD180F;
+-------||||||||||||||||
+
+[CSE] Message number 3 in line 10:2:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+  11:  margin-top: 10px;
+  12:  margin-left: 10px;
+  13: } 
+  14: 
+  15: nav ul {
+  16:    list-style-type: none;
+  17:    margin: 0;
+  18:   padding: 0;
+  19:    overflow: hidden;
+
+  20:    background-color: #940008;
+---------||||||||||||||||
+
+[CSE] Message number 4 in line 20:4:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+  21:  font-family: century, times new roman, sans-serif;
+-----------------------------|||||||||||||||
+
+[CSE] Warning number 1 in line 21:24:
+The font family name "times new roman" contains one or more
+space characters. It's recommended that font family names
+that contain space characters be enclosed in quotation
+marks. This message is displayed up to 3 times.
+
+  21:  font-family: century, times new roman, sans-serif;
+--------------------||||||||||||||||||||||||||||||||||||
+
+[CSE] Message number 5 in line 21:15:
+Typefaces from more than one family were given. Typically,
+for a consistent look, the typefaces should all be from the
+same font family. Number of serif family typefaces: 2
+("times new roman", "century"), sans-serif: 1
+("sans-serif"), cursive: 0, fantasy: 0, monospace: 0, other:
+0.
+
+  22:  font-size: 17px;
+  23:  text-transform: uppercase;
+  24: }
+  25: 
+  26: nav li {
+  27:   float: left;
+  28: }
+  29: 
+  30: nav li a {
+  31:    display: block;
+
+  32:    color: white;
+---------|||||
+
+[CSE] Message number 6 in line 32:4:
+When a foreground color is defined, consider also defining a
+background color (by using the "background" or
+"background-color" property). This helps to avoid conflict
+with user-defined style sheets and to improve accessibility.
+This message is displayed up to 5 times.
+
+  33:    text-align: center;
+  34:    padding: 16px 25px;
+  35:    text-decoration: underline;
+  36: }
+  37: 
+
+  38: nav li a:hover {
+---------------|||||
+
+[CSE] Warning number 2 in line 38:10:
+Many mobile devices use touch screens making ":hover"
+problematic, cumbersome, or impossible to use. Depending on
+the browser, ":hover" might never match, or it might match
+for brief moments, or until the user touches another
+element. Ensure that content is never only accessible or
+only visible by hovering. This message is displayed only
+once.
+
+  39:    color: #450009; 
+---------|||||
+
+[CSE] Message number 7 in line 39:4:
+When a foreground color is defined, consider also defining a
+background color (by using the "background" or
+"background-color" property). This helps to avoid conflict
+with user-defined style sheets and to improve accessibility.
+This message is displayed up to 5 times.
+
+  40: }
+  41: 
+  42: img{
+  43:  margin-left:30px;
+  44: }
+  45: 
+  46: p{
+  47:  font-size: 25px;
+  48:  margin-left: 20px;
+
+  49:  font-family: agency fb, arial narrow, sans-serif;
+--------------------|||||||||
+
+[CSE] Warning number 3 in line 49:15:
+The font family name "agency fb" contains one or more space
+characters. It's recommended that font family names that
+contain space characters be enclosed in quotation marks.
+This message is displayed up to 3 times.
+
+  49:  font-family: agency fb, arial narrow, sans-serif;
+-------------------------------||||||||||||
+
+[CSE] Warning number 4 in line 49:26:
+The font family name "arial narrow" contains one or more
+space characters. It's recommended that font family names
+that contain space characters be enclosed in quotation
+marks. This message is displayed up to 3 times.
+
+  49:  font-family: agency fb, arial narrow, sans-serif;
+--------------------|||||||||||||||||||||||||||||||||||
+
+[CSE] Message number 8 in line 49:15:
+Typefaces from more than one family were given. Typically,
+for a consistent look, the typefaces should all be from the
+same font family. Number of serif family typefaces: 0,
+sans-serif: 2 ("sans-serif", "arial narrow"), cursive: 0,
+fantasy: 0, monospace: 0, other: 1 ("agency fb"). Typefaces
+classified as "other" do not belong in any one of the other
+families. This could be because using the typeface could
+result in different typefaces from different families being
+used, depending on what's on the user's system. Consider
+using a more specific typeface to avoid this issue (like
+"lucida sans" instead of "lucida").
+
+  50: }
+  51: 
+  52: h1{
+  53:  text-transform: uppercase;
+
+  54:  font-family: century, times new roman, sans-serif;
+--------------------||||||||||||||||||||||||||||||||||||
+
+[CSE] Message number 9 in line 54:15:
+Typefaces from more than one family were given. Typically,
+for a consistent look, the typefaces should all be from the
+same font family. Number of serif family typefaces: 2
+("times new roman", "century"), sans-serif: 1
+("sans-serif"), cursive: 0, fantasy: 0, monospace: 0, other:
+0.
+
+  55: }
+  56: ul{
+  57:  text-transform: uppercase;
+
+  58:  font-family: century, times new roman, sans-serif;
+--------------------||||||||||||||||||||||||||||||||||||
+
+[CSE] Message number 10 in line 58:15:
+Typefaces from more than one family were given. Typically,
+for a consistent look, the typefaces should all be from the
+same font family. Number of serif family typefaces: 2
+("times new roman", "century"), sans-serif: 1
+("sans-serif"), cursive: 0, fantasy: 0, monospace: 0, other:
+0.
+
+  59:     font-size:20px;
+
+  60:     list-style-type: -;
+---------------------------|
+
+[CSE] Error number 1 in line 60:22:
+The value for the "list-style-type" property is invalid. CSS
+2.1 allows this value to be "disc", "circle", "square",
+"decimal", "decimal-leading-zero", "lower-roman",
+"upper-roman", "lower-greek", "lower-latin", "upper-latin",
+"armenian", "georgian", "lower-alpha", "upper-alpha", or
+"none". CSS3 allows this value to be "<counter-style> |
+<string> | none". This property sets the appearance of the
+list item marker if 'list-style-image' has the value 'none'
+or is an invalid image that cannot be displayed.
+
+  61: }
+
+  62: #member_information{
+------|||||||||||||||||||
+
+[CSE] Message number 11 in line 62:1:
+It's recommended that "*#member_information" be used instead
+of "#member_information" so that the universal selector (*)
+is explicit instead of implied. Using explicit universal
+selectors can decrease confusion and improve readability.
+This message is displayed up to 3 times.
+
+  63:     font-family: agency fb, times new roman, sans-serif;
+-----------------------||||||||||||||||||||||||||||||||||||||
+
+[CSE] Message number 12 in line 63:18:
+Typefaces from more than one family were given. Typically,
+for a consistent look, the typefaces should all be from the
+same font family. Number of serif family typefaces: 1
+("times new roman"), sans-serif: 1 ("sans-serif"), cursive:
+0, fantasy: 0, monospace: 0, other: 1 ("agency fb").
+Typefaces classified as "other" do not belong in any one of
+the other families. This could be because using the typeface
+could result in different typefaces from different families
+being used, depending on what's on the user's system.
+Consider using a more specific typeface to avoid this issue
+(like "lucida sans" instead of "lucida").
+
+  64:     font-size:20px;
+  65:     
+  66: }
+  67: 
+  68: footer ul {
+  69: 
+  70:    list-style-type: none;
+  71:    margin: 0;
+  72:   padding: 0;
+  73:    overflow: hidden;
+
+  74:    background-color: #940008;
+---------||||||||||||||||
+
+[CSE] Message number 13 in line 74:4:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+  75:  font-family: century, times new roman, sans-serif;
+--------------------||||||||||||||||||||||||||||||||||||
+
+[CSE] Message number 14 in line 75:15:
+Typefaces from more than one family were given. Typically,
+for a consistent look, the typefaces should all be from the
+same font family. Number of serif family typefaces: 2
+("times new roman", "century"), sans-serif: 1
+("sans-serif"), cursive: 0, fantasy: 0, monospace: 0, other:
+0.
+
+  76:  font-size: 17px;
+  77:  text-transform: uppercase;
+  78:    
+  79: }
+  80: footer li {
+  81:   float: left;
+  82: }
+  83: 
+  84: footer li a {
+  85:    display: block;
+
+  86:    color: white;
+---------|||||
+
+[CSE] Message number 15 in line 86:4:
+When a foreground color is defined, consider also defining a
+background color (by using the "background" or
+"background-color" property). This helps to avoid conflict
+with user-defined style sheets and to improve accessibility.
+This message is displayed up to 5 times.
+
+  87:    text-align: center;
+  88:    padding: 16px 25px;
+  89:    text-decoration: underline;
+  90: }
+  91: 
+  92: footer li a:hover {
+
+  93:    color: #450009; 
+---------|||||
+
+[CSE] Message number 16 in line 93:4:
+When a foreground color is defined, consider also defining a
+background color (by using the "background" or
+"background-color" property). This helps to avoid conflict
+with user-defined style sheets and to improve accessibility.
+This message is displayed up to 5 times.
+
+  94: }
+
+[CSE] Comment number 1:
+[73] Section 508 accessibility checking is off.
+
+[CSE] Comment number 2:
+[73] WCAG 1.0 accessibility checking is off.
+
+[CSE] Comment number 3:
+[73] WCAG 2.0 accessibility checking is off.
+
+[CSE] Comment number 4:
+Accessibility checking is off. This program can help you
+make your web pages more accessible. An accessible page is
+one that more individuals can use, such as individuals who
+are blind or deaf. It can also increase the usefulness of
+your web page for individuals who browse the web using
+slower devices like older computers or wireless devices like
+mobile phones and PDAs. An accessible web site makes good
+business sense (and possibly good legal sense as well) and
+may even improve search engine rankings. You can enable or
+disable accessibility checking in the Validator Engine
+Options.
+
+[CSE] Comment number 5:
+CSS document detected.
+
+--------------------------------------------------
