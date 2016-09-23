@@ -24,7 +24,7 @@ nav ul {
 }
 
 nav li {
-  float: left;
+  	float: left;
 }
 
 nav li a {
@@ -42,8 +42,8 @@ nav li a:hover {
 img{
 	margin-left:30px;
 	border-style: solid;
-    border-width: 5px;
-    border-color: #940008;
+    	border-width: 5px;
+    	border-color: #940008;
 	
 }
 
@@ -58,32 +58,48 @@ h1{
 	font-family: century, times new roman, sans-serif;
 }
 h3{
-    margin-top: 0px;
+    	margin-top: 0px;
 	margin-left:30px;
 	font-family: agency fb, arial narrow, sans-serif;s
 
 }
 
-
 ul{
 	font-family: century, times new roman, sans-serif;
-    font-size:20px;
-    list-style-type: none;
+    	font-size:20px;
+    	list-style-type: none;
 }
 
 #member_information{
 
-    font-family: calibri light, arial narrow, sans-serif;
-    font-size:20px;
-    list-style-type: none; 
-    margin: 5px;
+    	font-family: calibri light, arial narrow, sans-serif;
+    	font-size:20px;
+   	list-style-type: none; 
+    	margin: 5px;
 }
 
 table {
-    border: 1px solid black;
-    margin-top: 15px;
-    margin-left: 80px;
+    	margin-top: 15px;
+    	margin-left: 150px;
 }
+
+th{
+	background-color: #940008;
+}
+
+th, td {
+    	border-bottom: 2px solid #ddd;
+}
+
+td{
+	height: 25px;
+	vertical-align: bottom;
+}
+.border{
+	border: 2px solid black;
+	padding: 5px;
+}
+
 
 footer ul {
 
@@ -98,7 +114,7 @@ footer ul {
   	
 }
 footer li {
-  float: left;
+  	float: left;
 }
 
 footer li a {
