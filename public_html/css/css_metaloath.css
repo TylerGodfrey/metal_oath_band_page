@@ -57,6 +57,7 @@ h1{
 	text-transform: uppercase;
 	font-family: century, times new roman, sans-serif;
 }
+
 h3{
     	margin-top: 0px;
 	margin-left:30px;
@@ -65,17 +66,21 @@ h3{
 }
 
 ul{
-	font-family: century, times new roman, sans-serif;
+	font-family:  century,times new roman, sans-serif;
     	font-size:20px;
     	list-style-type: none;
 }
 
+ul li{
+	padding: 5px; 
+}
+
 #member_information{
 
-    	font-family: calibri light, arial narrow, sans-serif;
+    	font-family: Eras Medium ITC, arial narrow, sans-serif;
     	font-size:20px;
-   	list-style-type: none; 
-    	margin: 5px;
+   	list-style-type: none;
+    	margin: 3px;
 }
 
 table {
@@ -84,22 +89,38 @@ table {
 }
 
 th{
-	background-color: #940008;
+	text-transform: uppercase;
+	background-color: #AD180F;
+	font-size: 18px;
 }
 
 th, td {
     	border-bottom: 2px solid #ddd;
+	font-family: century, times new roman, sans-serif;
 }
 
 td{
 	height: 25px;
 	vertical-align: bottom;
 }
+
 .border{
 	border: 2px solid black;
 	padding: 5px;
+	font-family: century, times new roman, sans-serif;
+	text-align: center;	
 }
 
+#times{
+	text-align: right;
+}
+
+form{
+	font-family: century, times new roman, sans-serif;
+	font-size: 20px;
+	margin-left: 30px;
+	padding: 5px;
+}
 
 footer ul {
 
@@ -110,9 +131,9 @@ footer ul {
   	background-color: #940008;
 	font-family: century, times new roman, sans-serif;
 	font-size: 17px;
-	text-transform: uppercase;
-  	
+	text-transform: uppercase;	
 }
+
 footer li {
   	float: left;
 }
