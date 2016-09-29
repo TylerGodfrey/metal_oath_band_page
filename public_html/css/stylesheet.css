@@ -1,0 +1,32 @@
+.below_menu_container {
+    padding-top: 70px;
+}
+.jumbotron{
+    color: white;
+    background-color: #D1CBCC;
+}
+#song_list{
+    color: #820C1B;
+    list-style:none;
+    text-align: center;
+    font-size:20px;
+}
+.navigation_format{
+    color: black;
+    background-color: #CF0823;
+   
+}
+
+.text-center{  
+    color: black;
+    padding: 7px;
+}
+.button_format{
+    background-color: #CF0823:
+}
+
+.actived{
+    background_color: red;
+}
+    
+      
