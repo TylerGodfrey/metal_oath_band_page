@@ -1,5 +1,5 @@
 .below_menu_container {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 .jumbotron{
     color: white;
@@ -13,8 +13,11 @@
 }
 .navigation_format{
     color: black;
-    background-color: #CF0823;
-   
+    background-color: #c10909;
+}
+footer{
+    color: white;
+    background-color: black;
 }
 
 .text-center{  
@@ -28,5 +31,8 @@
 .actived{
     background_color: red;
 }
-    
+   
+h1{
+
+}
       
