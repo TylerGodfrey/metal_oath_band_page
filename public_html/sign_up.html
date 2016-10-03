@@ -66,40 +66,71 @@
     </h1>
 
 <form>
+	<form>
+		<div class="form-group">
 
-Username:
-<br>
-<input type="text" name="username"><br>
-Password:
-<br>
-<input type="password" name="password"><br>
-First Name:
-<br>
-<input type="text" name="firstname"><br>
-Last Name:
-<br>
-<input type="text" name="lastname"><br>
-Email:
-<br>
-<input type="text" name="email"><br>
-<br>
-What is your gender? <br>
-<input type="radio" name="gender" value="male" checked> Male <br>
-<input type="radio" name="gender" value="female" checked> Female <br>
-<input type="radio" name="gender" value="other" checked> Other <br>
-<br>
-Security Question:
-<br>
-<input type="text" name="customSecurityQuestion"><br>
-Answer to Your Security Question:
-<br>
-<input type="password" name="answerToQuestion"><br>
-<br>
-<input type="submit" value="Submit">
-<br>
-<br>
+   			<label for="inputusername">Username</label>
+   			<input type="text" class="form-control" id="inputusername">
+    		</div>
 
-</form>
+		<div class="form-group">
+      			<label for="inputpassword">Password</label>
+        		<input type="password" class="form-control" id="inputpassword">
+    		</div>
+
+		<div class="form-group">
+      			<label for="inputfirstname">First Name</label>
+        		<input type="text" class="form-control" id="inputfirstname">
+    		</div>
+
+		<div class="form-group">
+      			<label for="inputlastname">Last Name</label>
+        		<input type="text" class="form-control" id="inputlastname">
+    		</div>
+
+		<div class="form-group">
+      			<label for="inputemail">Email</label>
+        		<input type="email" class="form-control" id="inputemail">
+    		</div>
+		
+		<fieldset class="form-group">
+		<legend>Gender</legend>
+
+		<div class="form-check">
+			<label class ="form-check-label">
+			<input type="radio" class="form-check-input" name="genderoptions" id="genderoptions" value="male" checked>
+			Male
+			</label>
+		</div>
+
+		<div class="form-check">
+			<label class ="form-check-label">
+			<input type="radio" class="form-check-input" name="genderoptions" id="genderoptions" value="female">
+			Female
+			</label>
+		</div>
+
+		<div class="form-check">
+			<label class ="form-check-label">
+			<input type="radio" class="form-check-input" name="genderoptions" id="genderoptions" value="other">
+			Other
+			</label>
+		</div>
+		</fieldset>
+
+		<div class="form-group">
+      			<label for="securityquestion">Security Question</label>
+        		<input type="text" class="form-control" id="securityquestion">
+    		</div>
+
+		<div class="form-group">
+      			<label for="securityanswer">Security Question Answer</label>
+        		<input type="text" class="form-control" id="securityanswer">
+    		</div>
+
+  		<button type ="button" class="btn btn-primary">Sign Up</button>
+	</form>
+<br>
 
 </div>
 </div>
