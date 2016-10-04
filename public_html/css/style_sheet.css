@@ -1,0 +1,93 @@
+body {
+  background: #ece3d7;
+}
+
+header {
+  background-color: #931a2a;
+  background-image: url("http://simpson.edu/wp-content/themes/simpson/assets/img/header-seal-desktop.png");
+  background-repeat: no-repeat;
+  color: #f9e5af;
+  font-family: Georgia, Palatino, serif;
+  font-size: 60px;
+  height: 75px;
+  padding: 10px;
+}
+
+section {
+  background: #FFFFFF;
+  max-width: 800px;
+  padding: 5px;
+}
+
+article {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+p {
+    font-family: arial,sans-serif;
+}
+
+
+h1 {
+  font-size: 24px;
+  font-family: arial,sans-serif;
+  color: rgb(147, 26, 42);
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: arial,sans-serif;
+  color: rgb(147, 26, 42);
+}
+
+.prerequisite {
+  font-style: italic;
+  display: inline;
+}
+
+.credits {
+  display: inline;
+  color: #800000;
+}
+
+.embedded_skill {
+  display: inline;
+  color: #995c00;
+}
+
+.offered {
+  display: inline;
+  color: #000080;
+}
+
+/* --- Nav Bar --- */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: arial,sans-serif;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  /* This is a three digit code. Same as #111111 */
+  background-color: #111;
