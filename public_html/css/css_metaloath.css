@@ -31,7 +31,7 @@ nav li a {
   	display: block;
   	color: white;
   	text-align: center;
-  	padding: 16px 25px;
+  	padding: 16px 20px;
   	text-decoration: underline;
 }
 
@@ -45,6 +45,14 @@ img{
     	border-width: 5px;
     	border-color: #940008;
 	
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	margin-left: 400px;
 }
 
 p{
@@ -81,6 +89,13 @@ ul li{
     	font-size:20px;
    	list-style-type: none;
     	margin: 3px;
+}
+
+.upcoming_dates {
+	font-family: Eras Medium ITC, arial narrow, sans-serif;
+	font-size: 23px;
+	list-style-type: none;
+	margin: 3px;
 }
 
 table {
@@ -142,7 +157,7 @@ footer li a {
   	display: block;
   	color: white;
   	text-align: center;
-  	padding: 16px 25px;
+  	padding: 16px 20px;
   	text-decoration: underline;
 }
 
