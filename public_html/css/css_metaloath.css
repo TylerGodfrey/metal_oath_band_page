@@ -42,8 +42,8 @@ nav li a:hover {
 img{
 	margin-left:30px;
 	border-style: solid;
-    	border-width: 5px;
-    	border-color: #940008;
+	border-width: 5px;
+	border-color: #940008;
 	
 }
 
@@ -117,7 +117,7 @@ th{
 }
 
 th, td {
-    	border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
 	font-family: century, times new roman, sans-serif;
 }
 
@@ -169,10 +169,30 @@ footer li a {
   	display: block;
   	color: white;
   	text-align: center;
-  	padding: 16px 20px;
+  	padding: 16px;
   	text-decoration: underline;
 }
 
 footer li a:hover {
   	color: #450009;	
+}
+
+.text{
+    font-family: century, arial narrow, sans-serif;
+    margin-left:30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.prev{
+
+    font-weight: bold;
+    margin-left:30px;
+    font-size: 30px;
+}
+
+.next{
+    font-weight: bold;
+    margin-left:450px;
+    font-size: 30px;
 }
