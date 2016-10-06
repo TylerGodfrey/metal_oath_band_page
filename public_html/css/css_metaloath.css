@@ -67,9 +67,9 @@ h1{
 }
 
 h3{
-    	margin-top: 0px;
+    margin-top: 0px;
 	margin-left:30px;
-	font-family: agency fb, arial narrow, sans-serif;s
+	font-family: agency fb, arial narrow, sans-serif;
 
 }
 
@@ -80,14 +80,14 @@ ul{
 }
 
 ul li{
-	padding: 5px; 
+	padding: 7px; 
 }
 
-#member_information{
+.member_information{
 
-    	font-family: Eras Medium ITC, arial narrow, sans-serif;
-    	font-size:20px;
-   	list-style-type: none;
+    	font-family: century, arial narrow, sans-serif;
+    	font-size:17px;
+    	list-style-type: square;
     	margin: 3px;
 }
 
