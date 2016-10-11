@@ -50,6 +50,7 @@ nav li a:hover {
   	color: #450009;	
 }
 
+
 img{
 	margin-left:30px;
 	border-style: solid;
@@ -73,7 +74,6 @@ img{
 }
 
 p{
-	font-size: 25px;
 	margin-left: 20px;
 	font-family: Eras Medium ITC, arial narrow, sans-serif;
 	font-size: 23px;
@@ -161,7 +161,6 @@ footer {
 }
 
 footer ul {
-
   	list-style-type: none;
   	margin: 0;
  	padding: 0;
