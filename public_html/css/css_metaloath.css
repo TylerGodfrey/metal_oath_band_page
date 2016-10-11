@@ -3,14 +3,25 @@ body{
 }
 
 header{
-	background-color: #2A2C2B;
-	height: 85px;
+	background-color: #FFF;
+	height: 75px;
+	margin-bottom: 8px;
+	border-style: solid;
+	border-color: #940008;
+	border-width: 10px;
 }
-#logo{
+
+/*#logo{
 	background-color: #AD180F;
 	margin-top: 8px;
 	margin-left: 10px;
-} 
+} */
+
+#logo {
+	border-style: none;
+	margin-top: 9px;
+	margin-left: 20px;
+}
 
 nav ul {
   	list-style-type: none;
