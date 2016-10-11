@@ -61,6 +61,8 @@ img{
 
 .float_left {
 	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 .float_right {
@@ -71,6 +73,11 @@ img{
 
 .margin_left {
 	margin-left: 400px;
+}
+
+section {
+	clear: both;
+	margin-right: 15px;
 }
 
 p{
