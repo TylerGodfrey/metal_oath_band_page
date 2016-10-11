@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/css_metaloath.css">
-    
     <title>Media</title>
 </head>
 
@@ -42,18 +41,64 @@
     </nav>
            
     <h1>Pictures</h1>
-    <img src="img/concertpic1.png" alt="Concert picture 1">
-    <br>
-    <h3><em>Metal Oath at Saint Charles Old Settlers Reunion, 2016</em></h3>
-    <br>
-    <img src="img/concertpic2.png" alt="Concert picture 2">
-    <br>
-    <h3><em>Metal Oath at Vaudeville Mews, 2016</em></h3>
-    <br>
-    <img src="img/concertpic3.png" alt="Concert picture 3">
-    <br>
-    <h3><em>Metal Oath at Heavy Heavy Metal Show 2016</em></h3>
     
+    <div class="slideshow-container">
+        <div class="mySlides">
+    
+             <img src="img/concertpic1.png" alt="Concert picture 1" height="500" width="500">
+            <div class="text">Metal Oath at Saint Charles Old Settlers Reunion, 2016</div>
+        </div>
+        
+        <div class="mySlides">
+            <img src="img/concertpic2.png" alt="Concert picture 2" height="500" width="500">
+            <div class="text">Metal Oath at Vaudeville Mews, 2016</div>
+        </div>
+        
+        <div class="mySlides">
+            <img src="img/concertpic3.png" alt="Concert picture 3" height="500" width="500">
+            <div class="text">Metal Oath at Heavy Heavy Metal Show, 2016</div>
+        </div>
+        
+        <div class="mySlides">
+            <img src="img/concertpic4.png" alt="Concert picture 4" height="500" width="500">
+            <div class="text">Metal Oath at Doom Now, 2016</div>
+        </div>
+        
+        <div class="mySlides">
+            <img src="img/concertpic5.png" alt="Concert picture 5" height="500" width="500">
+            <div class="text">Metal Oath Lights out, Night out, 2016</div>
+        </div>
+        
+    <a class="prev" onclick="plusSlides(-1)">&#8701;</a>
+  <a class="next" onclick="plusSlides(1)">&#8702;</a>
+</div>
+
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  
+</script>
     <h1>Audio</h1>
     <br>
     <audio controls>
